@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+}
+
+#tableauPanier td {
+    width: 160px;
+    padding: 0px 10px 10px 10px;
+
+}
+
+.ImagesPanier {
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fab {
+    color: black;
+    font-size: 40px;
+}
+
+#Titre {
+    text-align: left;
+}
+
+.Boutons {
+    padding: 5px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.Boutons:hover {
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
+
+.bandeau {
+    background-color: rgba(155, 42, 42);
+    box-shadow: 0px 0px 30px 0px rgb(0, 0, 0);
+
+}
+
+.textes {
+    color: rgb(33, 37, 41);
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.Terry {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Majuscule {
+    text-transform: uppercase;
+}
+
+.Images {
+    border: 1px solid black;
+    margin-top: 10px;
+
+}
+
+.Opacité:hover {
+    opacity: 0.5;
+}
+
+.ÉcritBlockHaut,
+.ÉcritBlockBas360Petit,
+.ÉcritBlockBas360Moyen,
+.ÉcritBlockBas360Gros,
+.ÉcritBlockBas400Petit,
+.ÉcritBlockBas400Moyen,
+.ÉcritBlockBas400Gros {
+    background-color: gray;
+    color: white;
+    position: absolute;
+    padding: 3px;
+}
+
+.ÉcritBlockHaut {
+    left: 20px;
+    top: 15px;
+}
+
+@media(min-width: 375px) {
+    .ÉcritBlockBas360Petit {
+        left: 304px;
+        top: 82%;
+    }
+
+    .ÉcritBlockBas360Moyen {
+        left: 295px;
+        top: 82%;
+    }
+
+    .ÉcritBlockBas360Gros {
+        left: 285px;
+        top: 83%;
+    }
+
+    .ÉcritBlockBas400Petit {
+        left: 304px;
+        top: 84%;
+    }
+
+    .ÉcritBlockBas400Moyen {
+        left: 295px;
+        top: 83%;
+    }
+
+    .ÉcritBlockBas400Gros {
+        left: 308px;
+        top: 84%;
+    }
+
+    #Titre,
+    .Terry {
+        text-align: center;
+    }
+
+    #Apparition {
+        display: none;
+    }
+
+    #Copyrights {
+        justify-content: left;
+    }
+}
+
+@media(min-width: 768px) {
+    .ÉcritBlockBas360Petit {
+        left: 110px;
+        top: 58%;
+    }
+
+    .ÉcritBlockBas360Moyen {
+        left: 100px;
+        top: 58%;
+    }
+
+    .ÉcritBlockBas360Gros {
+        left: 90px;
+        top: 58%;
+    }
+
+    .ÉcritBlockBas400Petit {
+        left: 110px;
+        top: 66%;
+    }
+
+    .ÉcritBlockBas400Moyen {
+        left: 100px;
+        top: 67%;
+    }
+
+    .ÉcritBlockBas400Gros {
+        left: 111px;
+        top: 66%;
+    }
+
+    #Titre,
+    .Terry {
+        text-align: left;
+    }
+
+    #Apparition {
+        display: flex;
+    }
+
+    .Copyrights {
+        justify-content: center;
+    }
+}
+
+@media(min-width: 1201px) {
+    .ÉcritBlockBas360Petit {
+        left: 213px;
+        top: 69%;
+    }
+
+    .ÉcritBlockBas360Moyen {
+        left: 204px;
+        top: 69%;
+    }
+
+    .ÉcritBlockBas360Gros {
+        left: 194px;
+        top: 69%;
+    }
+
+    .ÉcritBlockBas400Petit {
+        left: 214px;
+        top: 78%;
+    }
+
+    .ÉcritBlockBas400Moyen {
+        left: 206px;
+        top: 78%;
+    }
+
+    .ÉcritBlockBas400Gros {
+        left: 217px;
+        top: 78%;
+    }
+
+    #Titre,
+    .Terry {
+        text-align: left;
+    }
+}
+
+body {
+    background-color: rgb(235, 175, 184);
+    font-family: cursive
+}
+
+.conteneurItem {
+    position: relative;
+    border: 1px solid black;
+    margin-bottom: 1em;
+    padding: 1em;
+    height: 300px;
+}
+    .conteneurItem .nomProduit {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.40);
+        color: white;
+        left: 5px;
+        top: 5px;
+        padding: 0.25em;
+    }
+
+    .conteneurItem .prixProduit {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.40);
+        color: white;
+        bottom: 5px;
+        right: 5px;
+        padding: 0.25em;
+    }
+    .conteneurItem:hover img {
+        opacity: 0.5
+    }
